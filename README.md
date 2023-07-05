@@ -1,6 +1,6 @@
 <!-- Please update value in the {  }  -->
 
-<h1 align="center">{404 NOT FOUND}</h1>
+<h1 align="center">404 NOT FOUND</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -37,7 +37,7 @@
 ![screenshot](/404-NOT-FOUND.png)
 
 
-### Built With HTML, CSS
+### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
