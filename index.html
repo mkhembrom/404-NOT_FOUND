@@ -16,7 +16,7 @@
       box-sizing: border-box;
     }
 
-    html,
+
     body {
       font-family: 'Space Mono', monospace;
     }
@@ -24,20 +24,20 @@
 </head>
 
 <body>
-  <div class="w-full h-screen p-4 md:p-16 container mx-auto">
+  <div class="w-full h-screen p-4 lg:p-16 container mx-auto flex flex-col">
     <h1 class="text-2xl">404 NOT FOUND</h1>
-    <div class="flex items-center justidy-between h-full">
-      <div class="w-full flex flex-col md:flex-row  items-start justidy-between md:space-x-20">
+    <div class="flex flex-col items-center justify-center h-full">
+      <div class="w-full flex flex-col  md:flex-row  items-start justify-between lg:space-x-20">
         <div class="flex flex-1 ">
-          <img class="w-full md:w-[80%]" src="./Scarecrow.png" alt="scarecrow">
+          <img class="w-full xl:w-[80%]" src="./Scarecrow.png" alt="scarecrow">
         </div>
         <div class="flex flex-1 flex-col items-start justify-between  h-full">
-          <h1 class="text-4xl md:text-6xl font-bold">I have bad news for you</h1>
-          <p class="text-lg md:text-xl md:w-1/2 my-10 md:my-20">The page you are looking for might be removed or is
+          <h1 class="text-3xl  lg:text-4xl xl:text-6xl font-bold">I have bad news for you</h1>
+          <p class="text-lg lg:text-xl lg:w-1/2 my-10  xl:my-20">The page you are looking for might be removed or is
             temporarily
             unavailable
           </p>
-          <button class="bg-black text-white px-8 md:px-10 py-5 uppercase">Back to Homepage</button>
+          <button class="bg-black text-white px-8 lg:px-10 py-5 uppercase">Back to Homepage</button>
         </div>
       </div>
     </div>
